@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "../components/carousel.js";
-
+import CardUi from "../components/cardui.js";
 const MainPage = () => {
   return (
     <>
@@ -11,6 +11,7 @@ const MainPage = () => {
           <p>Di</p>
           <p>Maybeauty.Skin</p>
         </div>
+        <CardUi />
       </div>
     </>
   );

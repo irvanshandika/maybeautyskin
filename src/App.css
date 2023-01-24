@@ -12,7 +12,7 @@
 }
 
 .AppMain {
-  background-color: #b9f3fc;
+  background-color: #ffffe8;
   padding-bottom: 1.5rem;
 }
 
@@ -25,12 +25,15 @@
 .navbar {
   font-family: "Josefin Sans", sans-serif;
   border-radius: 16px;
-  background: #aee2ff;
+  background: #fffbf5;
   box-shadow: 5px 5px 10px #101215;
-  /* , -5px -5px 10px #404653 */
 }
 .nav-bg {
-  background-color: #b9f3fc;
+  background-color: #ffffe8;
+  padding-bottom: 1rem;
+}
+.dropdown-menu {
+  background-color: #fffbf5;
 }
 /* Akhir navbar */
 /* Ucapan */
@@ -47,10 +50,10 @@
   padding-bottom: 2rem;
   border-radius: 32px;
   border-radius: 32px;
-  background: #b9f3fc;
+  background: #ffffe8;
   box-shadow: 5px 5px 10px #4a6165;
 }
-.image-carousel {
+.carousel-images {
   width: 35%;
 }
 /* Akhir Carousel */
@@ -59,6 +62,6 @@
   font-family: "Roboto Mono", monospace;
   padding-bottom: 1.2rem;
   margin: auto;
-  background-color: #aee2ff;
+  background-color: #fffbf5;
 }
 /* Akhir Footer */
