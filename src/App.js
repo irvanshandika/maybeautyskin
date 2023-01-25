@@ -6,6 +6,7 @@ import Navbar from "./components/navbar.js";
 import Footer from "./components/footer.js";
 
 function App() {
+  console.log(window.location.pathname);
   return (
     <>
       <Navbar />

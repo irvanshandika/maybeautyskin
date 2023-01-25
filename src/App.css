@@ -9,6 +9,17 @@
   .carousel {
     width: 100%;
   }
+  .cardui {
+    width: 31px;
+    justify-content: center;
+    display: flexbox;
+  }
+  .kurir {
+    font-size: large;
+  }
+  .kurir .images {
+    width: 100vw;
+  }
 }
 
 .AppMain {
@@ -20,7 +31,11 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.tombol {
+  border-radius: 25px;
+  background: linear-gradient(145deg, #ffeaea, #d8c5c5);
+  box-shadow: 5px 5px 0px #605858, -5px -5px 0px #ffffff;
+}
 /* Navbar */
 .navbar {
   font-family: "Josefin Sans", sans-serif;
@@ -32,21 +47,23 @@
   background-color: #ffffe8;
   padding-bottom: 1rem;
 }
-.dropdown-menu {
-  background-color: #fffbf5;
-}
+
 /* Akhir navbar */
 /* Ucapan */
 .ucapan {
+  font-family: "Josefin Sans", sans-serif;
   padding-top: 3rem;
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
 }
 /* Akhir Ucapan */
 
 /* Carousel */
+.slider {
+  padding-top: 4.5rem;
+}
 .carousel {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   border-radius: 32px;
   border-radius: 32px;
@@ -57,6 +74,22 @@
   width: 35%;
 }
 /* Akhir Carousel */
+
+/* Online Store */
+.logo-shopee {
+  width: 40vh;
+}
+/* Akhir Online Store */
+
+/* Layanan */
+.kurir-text {
+  font-size: 130%;
+}
+.images-layanan {
+  width: 40vw;
+}
+/* Akhir Layanan */
+
 /* Footer */
 .copyright {
   font-family: "Roboto Mono", monospace;

@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <div className="nav-bg">
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <img src={LogoToko} alt="logo" height="50px" width="50px" className="mr-1" />
@@ -23,30 +23,13 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Online Shop
+                    Online Store
                   </a>
                 </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
                     Produk
                   </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>
