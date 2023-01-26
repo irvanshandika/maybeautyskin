@@ -5,6 +5,8 @@
   .cardui {
     padding-top: 6rem;
     width: 31px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 768px) {

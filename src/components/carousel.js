@@ -10,13 +10,13 @@ function Carousel() {
               <img src="https://projektoko.vercel.app/assets/images/facemask.jpg" className="fotocar d-block mx-auto" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://projektoko.vercel.app/assets/images/leau.jpg" className="fotocar dblockx mx-auto" alt="..." />
+              <img src="https://projektoko.vercel.app/assets/images/leau.jpg" className="fotocar d-block mx-auto" alt="..." />
             </div>
             <div className="carousel-item">
               <img src="https://projektoko.vercel.app/assets/images/spray.jpg" className="fotocar d-block mx-auto" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://projektoko.vercel.app/assets/images/bodyspa.jpg" className="fotocar dblockx mx-auto" alt="..." />
+              <img src="https://projektoko.vercel.app/assets/images/bodyspa.jpg" className="fotocar d-block mx-auto" alt="..." />
             </div>
           </div>
         </div>
