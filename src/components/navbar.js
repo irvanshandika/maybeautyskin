@@ -1,7 +1,13 @@
 import React from "react";
+import $ from "jquery";
 import LogoToko from "../logo.jpg";
 
 function Navbar() {
+  $(document).ready(function () {
+    $(".navbar-toggler").trigger(function () {
+      $(".navbar").toggleClass("navbar-hide");
+    });
+  });
   return (
     <>
       <div className="nav-bg">
@@ -27,7 +33,7 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="#produk">
                     Produk
                   </a>
                 </li>

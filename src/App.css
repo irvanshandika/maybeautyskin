@@ -6,10 +6,12 @@
   [class*="col-"] {
     width: 100%;
   }
+
   .carousel {
     width: 100%;
   }
   .cardui {
+    padding-top: 6rem;
     width: 31px;
     justify-content: center;
     display: flexbox;
@@ -17,8 +19,15 @@
   .kurir {
     font-size: large;
   }
-  .kurir .images {
-    width: 100vw;
+  .kurir .images-layanan {
+    width: 70vw;
+    font-size: 20px;
+  }
+  .ucapan {
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 6rem;
+    text-align: center;
+    font-size: 35px;
   }
 }
 
@@ -52,11 +61,17 @@
 /* Ucapan */
 .ucapan {
   font-family: "Josefin Sans", sans-serif;
-  padding-top: 3rem;
+  padding-top: 6rem;
   text-align: center;
   font-size: 35px;
 }
 /* Akhir Ucapan */
+.cardui {
+  padding-top: 6rem;
+}
+/* Card */
+
+/* Akhir Card */
 
 /* Carousel */
 .slider {
@@ -82,8 +97,9 @@
 /* Akhir Online Store */
 
 /* Layanan */
-.kurir-text {
-  font-size: 130%;
+.deskripsi {
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
 }
 .images-layanan {
   width: 40vw;

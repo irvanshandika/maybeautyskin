@@ -33,30 +33,32 @@ function CardUi() {
   ];
   return (
     <>
-      <div className="cardui justify-content-center text-center">
-        <div className="container">
-          <div className="row g-2">
-            {items.map((item) => {
-              return (
-                <div className="col-4">
-                  <div className="p-3">
-                    <div data-aos="fade-up" className="card" style={{ width: "18rem" }}>
-                      <img src={item.image} className={`${item.class} images`} alt="..." />
-                      <div className="card-body">
-                        <h5 className="card-title">{item.title}</h5>
-                        <p className="card-text">{item.description}</p>
-                        <button type="button" class="btn tombol" to={item.buttonLink}>
-                          {item.buttonText}
-                        </button>
+      <section id="produk">
+        <div className="cardui justify-content-center text-center">
+          <div className="container">
+            <div className="row g-2">
+              {items.map((item) => {
+                return (
+                  <div className="col-4">
+                    <div className="p-3">
+                      <div data-aos="fade-up" className="card" style={{ width: "21rem" }}>
+                        <img src={item.image} className={`${item.class} images`} alt="..." />
+                        <div className="card-body">
+                          <h5 className="card-title">{item.title}</h5>
+                          <p className="card-text">{item.description}</p>
+                          <button type="button" class="btn tombol" to={item.buttonLink}>
+                            {item.buttonText}
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
