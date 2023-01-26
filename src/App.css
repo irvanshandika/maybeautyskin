@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
+@media only screen and (max-width: 1200px) {
+  .cardui {
+    padding-top: 6rem;
+    width: 31px;
+  }
+}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
@@ -19,8 +25,8 @@
   .kurir {
     font-size: large;
   }
-  .kurir .images-layanan {
-    width: 70vw;
+  .layanan .images-layanan {
+    width: 100vw;
     font-size: 20px;
   }
   .ucapan {
@@ -66,11 +72,11 @@
   font-size: 35px;
 }
 /* Akhir Ucapan */
+
+/* Card */
 .cardui {
   padding-top: 6rem;
 }
-/* Card */
-
 /* Akhir Card */
 
 /* Carousel */
@@ -85,7 +91,7 @@
   background: #ffffe8;
   box-shadow: 5px 5px 10px #4a6165;
 }
-.carousel-images {
+.fotocar {
   width: 35%;
 }
 /* Akhir Carousel */
