@@ -4,7 +4,7 @@
 @media only screen and (max-width: 1200px) {
   .cardui {
     padding-top: 6rem;
-    width: 100% !important;
+    width: 100vw !important;
     justify-content: center;
     display: flex;
   }
@@ -20,7 +20,7 @@
 
   .cardui {
     padding-top: 6rem;
-    width: 100% !important;
+    width: 100vw !important;
     justify-content: center;
     display: flex;
   }
