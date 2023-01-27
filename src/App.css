@@ -4,9 +4,9 @@
 @media only screen and (max-width: 1200px) {
   .cardui {
     padding-top: 6rem;
-    width: 31px;
-    display: flex;
+    width: 100% !important;
     justify-content: center;
+    display: flex;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -20,9 +20,9 @@
 
   .cardui {
     padding-top: 6rem;
-    width: 31px;
+    width: 100% !important;
     justify-content: center;
-    display: flexbox;
+    display: flex;
   }
   .kurir {
     font-size: large;
@@ -81,6 +81,7 @@
 /* Card */
 .cardui {
   padding-top: 6rem;
+  width: 100%;
 }
 /* Akhir Card */
 

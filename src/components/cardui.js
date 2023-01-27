@@ -7,21 +7,21 @@ function CardUi() {
       image: "https://cf.shopee.co.id/file/fd11907f0c04d1e254effeffd1b64ab4",
       buttonText: "Cek Produk",
       buttonLink: "/parfum",
-      class: "classParfum",
+      class: "foto",
     },
     {
       title: "Rose Water",
       image: "https://cf.shopee.co.id/file/48cb0f96fdfc549a9127a2dfbf2e7f63",
       buttonText: "Cek Produk",
       buttonLink: "/masker",
-      class: "classMasker",
+      class: "foto",
     },
     {
       title: "Perawatan Wajah",
       image: "https://projektoko.vercel.app/assets/images/sheetmask.jpg",
       buttonText: "Cek Produk",
       buttonLink: "/wajah",
-      class: "classWajah",
+      class: "foto",
     },
     // {
     //   title: "Olahraga",
@@ -41,7 +41,7 @@ function CardUi() {
                 return (
                   <div className="col-md-4">
                     <div className="p-3">
-                      <div data-aos="fade-up" className="card" style={{ width: "21rem" }}>
+                      <div data-aos="fade-up" className="card">
                         <img src={item.image} className={`${item.class} images`} alt="..." />
                         <div className="card-body">
                           <h5 className="card-title">{item.title}</h5>
