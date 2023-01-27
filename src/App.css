@@ -14,10 +14,10 @@
   [class*="col-"] {
     width: 100%;
   }
-
-  .carousel {
-    width: 100%;
+  .fotocar {
+    width: 70vw !important;
   }
+
   .cardui {
     padding-top: 6rem;
     width: 31px;
@@ -28,7 +28,7 @@
     font-size: large;
   }
   .layanan .images-layanan {
-    width: 80%;
+    width: 250px;
     font-size: 20px;
   }
   .ucapan {
@@ -36,6 +36,9 @@
     padding-top: 6rem;
     text-align: center;
     font-size: 35px;
+  }
+  .olstore {
+    padding-top: 6rem;
   }
 }
 
@@ -57,8 +60,8 @@
 .navbar {
   font-family: "Josefin Sans", sans-serif;
   border-radius: 16px;
-  background: #fffbf5;
-  box-shadow: 5px 5px 10px #101215;
+  background: linear-gradient(145deg, #e6e2dd, #ffffff);
+  box-shadow: 5px 5px 0px #666462, -5px -5px 0px #ffffff;
 }
 .nav-bg {
   background-color: #ffffe8;
@@ -99,8 +102,19 @@
 /* Akhir Carousel */
 
 /* Online Store */
+
+.olstore {
+  padding-top: 6rem;
+  font-family: "Josefin Sans", sans-serif;
+}
 .logo-shopee {
   width: 40vh;
+}
+.maps {
+  width: 15vh;
+}
+.alamat {
+  font-size: x-large;
 }
 /* Akhir Online Store */
 

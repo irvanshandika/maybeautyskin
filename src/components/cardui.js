@@ -39,7 +39,7 @@ function CardUi() {
             <div className="row g-2">
               {items.map((item) => {
                 return (
-                  <div className="col-4">
+                  <div className="col-md-4">
                     <div className="p-3">
                       <div data-aos="fade-up" className="card" style={{ width: "21rem" }}>
                         <img src={item.image} className={`${item.class} images`} alt="..." />

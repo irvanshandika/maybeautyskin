@@ -28,13 +28,13 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Online Store
+                  <a className="nav-link active" aria-current="page" href="#produk">
+                    Produk
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#produk">
-                    Produk
+                  <a className="nav-link" href="#store">
+                    Online Store
                   </a>
                 </li>
               </ul>
