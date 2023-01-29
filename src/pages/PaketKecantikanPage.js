@@ -1,26 +1,19 @@
 import React from "react";
 
-function ParfumPage() {
+function PaketKecantikanPage() {
   const parfums = [
     {
-      title: "INSPIRED PARFUM LELABO LE LABO 30ml",
-      image: "https://cf.shopee.co.id/file/fd11907f0c04d1e254effeffd1b64ab4_tn",
+      title: "Paket Saffron",
+      image: "https://cf.shopee.co.id/file/sg-11134201-22100-7ru8utweccivdb_tn",
       buttonText: "Cek Produk",
-      buttonLink: "https://shopee.co.id/INSPIRED-PARFUM-LELABO-LE-LABO-30ml-i.296344657.16683656598?sp_atk=7e56e4c3-744d-41ee-a6f6-56be679bb6dc&xptdk=7e56e4c3-744d-41ee-a6f6-56be679bb6dc",
+      buttonLink: "https://shopee.co.id/paket-saffron-i.296344657.16687054304?sp_atk=fc399743-806f-49ba-8379-f76bfd7aa395&xptdk=fc399743-806f-49ba-8379-f76bfd7aa395",
       class: "foto",
     },
     {
-      title: "[Premium Quality] PART 1 inspired parfum thailand parfumed murah",
-      image: "https://cf.shopee.co.id/file/2c031903150411fd89aafeb57eecffe8_tn",
+      title: "GARANSI 100% ORIGINAL MSGLOW BEAUTY PAKET MS GLOW WHITENING ULTIMATE LUMINOUS ACNE",
+      image: "https://cf.shopee.co.id/file/dc3e8275d7ddacd9cb928ba290437119_tn",
       buttonText: "Cek Produk",
-      buttonLink: "https://shopee.co.id/-Premium-Quality-PART-1-inspired-parfum-thailand-parfumed-murah-i.296344657.3755287971?sp_atk=ecef98e7-3df0-40b9-a858-019a4594f506",
-      class: "foto",
-    },
-    {
-      title: "[part 2 ] Inspired parfume parfum thailand parfumed wanita",
-      image: "https://cf.shopee.co.id/file/35fba62391b16da189acdb9affad9dce_tn",
-      buttonText: "Cek Produk",
-      buttonLink: "https://shopee.co.id/-part-2-Inspired-parfume-parfum-thailand-parfumed-wanita-i.296344657.7070279385?sp_atk=b7ddc109-b6a1-4a17-a245-bbfdb8201952",
+      buttonLink: "https://shopee.co.id/GARANSI-100-ORIGINAL-MSGLOW-BEAUTY-PAKET-MS-GLOW-WHITENING-ULTIMATE-LUMINOUS-ACNE-i.296344657.21643847346?sp_atk=11049e94-87f4-4b92-85bc-b223c73d9eff&xptdk=11049e94-87f4-4b92-85bc-b223c73d9eff",
       class: "foto",
     },
   ];
@@ -36,7 +29,7 @@ function ParfumPage() {
                     <div data-aos="fade-up" className="card">
                       <img src={item.image} className={`${item.class} images`} alt="..." />
                       <div className="card-body">
-                        <h5 className="card-title" style={{ fontSize: "100%" }}>
+                        <h5 className="card-title" style={{ fontSize: "76%" }}>
                           {item.title}
                         </h5>
                         <p className="card-text">{item.description}</p>
@@ -56,4 +49,4 @@ function ParfumPage() {
     </>
   );
 }
-export default ParfumPage;
+export default PaketKecantikanPage;

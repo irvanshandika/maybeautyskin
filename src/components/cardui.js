@@ -11,10 +11,10 @@ function CardUi() {
       class: "foto",
     },
     {
-      title: "Rose Water",
-      image: "https://cf.shopee.co.id/file/48cb0f96fdfc549a9127a2dfbf2e7f63",
+      title: "Paket Kecantikan",
+      image: "https://cf.shopee.co.id/file/dc3e8275d7ddacd9cb928ba290437119_tn",
       buttonText: "Cek Produk",
-      buttonLink: "/masker",
+      buttonLink: "/paket",
       class: "foto",
     },
     {

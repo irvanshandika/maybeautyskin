@@ -41,7 +41,7 @@
     font-family: "Josefin Sans", sans-serif;
     padding-top: 6rem;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px !important;
   }
   .olstore {
     padding-top: 6rem;
@@ -89,7 +89,10 @@
 .cardui {
   padding-top: 6rem;
   width: 100%;
+  background-color: #ffffe8;
+  font-family: "Josefin Sans", sans-serif;
 }
+
 /* Akhir Card */
 
 /* Carousel */
