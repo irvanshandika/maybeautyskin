@@ -4,6 +4,7 @@ import MainPage from "./pages/MainPage.js";
 import "./App.css";
 import Navbar from "./components/navbar.js";
 import Footer from "./components/footer.js";
+import ParfumPage from "./pages/ParfumPage.js";
 
 function App() {
   console.log(window.location.pathname);
@@ -14,6 +15,7 @@ function App() {
         <Route path="/">
           <Route index element={<MainPage />} />
           <Route path="*" element={<BlankPage />} />
+          <Route path="parfum" element={<ParfumPage />} />
         </Route>
       </Routes>
       <Footer />

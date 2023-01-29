@@ -7,7 +7,7 @@ import Layanan from "../components/layanan.js";
 const MainPage = () => {
   return (
     <>
-      <div className="AppMain">
+      <div className="AppMain" id="home">
         <Carousel />
         <div className="ucapan">
           <p>Selamat Datang</p>

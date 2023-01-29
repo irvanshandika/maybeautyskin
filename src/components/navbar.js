@@ -1,6 +1,7 @@
 import React from "react";
 import $ from "jquery";
 import LogoToko from "../logo.jpg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   $(document).ready(function () {
@@ -23,8 +24,10 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-4">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
+                  <a className="nav-link active" aria-current="page">
+                    <Link className="text-decoration-none" to={"/"} style={{ color: "black" }}>
+                      Home
+                    </Link>
                   </a>
                 </li>
                 <li className="nav-item">

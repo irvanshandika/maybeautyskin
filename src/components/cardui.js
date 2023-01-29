@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CardUi() {
   const items = [
@@ -46,9 +47,12 @@ function CardUi() {
                         <div className="card-body">
                           <h5 className="card-title">{item.title}</h5>
                           <p className="card-text">{item.description}</p>
-                          <button type="button" class="btn tombol" to={item.buttonLink}>
+                          {/* <button type="button" class="btn tombol" to={item.buttonLink}>
                             {item.buttonText}
-                          </button>
+                          </button> */}
+                          <Link className="btn tombol" to={item.buttonLink}>
+                            {item.buttonText}
+                          </Link>
                         </div>
                       </div>
                     </div>

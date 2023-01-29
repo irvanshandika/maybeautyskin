@@ -18,6 +18,12 @@
     width: 70vw !important;
   }
 
+  .navbar-nav {
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+  }
+
   .cardui {
     padding-top: 6rem;
     width: 100vw !important;
@@ -57,6 +63,7 @@
   box-shadow: 5px 5px 0px #605858, -5px -5px 0px #ffffff;
 }
 /* Navbar */
+
 .navbar {
   font-family: "Josefin Sans", sans-serif;
   border-radius: 16px;
