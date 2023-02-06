@@ -3,6 +3,7 @@ import Carousel from "../components/carousel.js";
 import CardUi from "../components/cardui.js";
 import OnlineStore from "../components/onlinestore.js";
 import Layanan from "../components/layanan.js";
+import Contact from "../components/contact.js";
 
 const MainPage = () => {
   return (
@@ -16,6 +17,7 @@ const MainPage = () => {
         </div>
         <CardUi />
         <Layanan />
+        <Contact />
         <OnlineStore />
       </div>
     </>

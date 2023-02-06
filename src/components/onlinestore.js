@@ -1,6 +1,5 @@
 import React from "react";
 import Shopee from "../shopee.png";
-import Address from "../address.png";
 
 function OnlineStore() {
   return (

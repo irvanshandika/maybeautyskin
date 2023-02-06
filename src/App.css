@@ -129,6 +129,16 @@
 }
 /* Akhir Online Store */
 
+/* Kontak */
+.contact {
+  padding-top: 6rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.whatsapp-logo {
+  width: 30vh;
+}
+/* Akhir Kontak */
+
 /* Layanan */
 .deskripsi {
   font-size: 25px;
@@ -146,4 +156,5 @@
   margin: auto;
   background-color: #fffbf5;
 }
+
 /* Akhir Footer */

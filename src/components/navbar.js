@@ -36,6 +36,11 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
+                  <a className="nav-link" href="#kontak">
+                    Kontak
+                  </a>
+                </li>
+                <li className="nav-item">
                   <a className="nav-link" href="#store">
                     Online Store
                   </a>
