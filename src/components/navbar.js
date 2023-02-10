@@ -40,11 +40,6 @@ function Navbar() {
                     Kontak
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#store">
-                    Online Store
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
