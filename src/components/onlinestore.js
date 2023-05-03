@@ -8,7 +8,9 @@ function OnlineStore() {
         <h2 className="text-center">Online Store Kami</h2>
         <div className="shopee justify-content-center d-flex">
           <a href="https://shopee.co.id/maybeauty.skin">
-            <img src={Shopee} className="logo-shopee" />
+            <button className="tombol-shopee rounded">
+              <img src={Shopee} alt="Shopee" className="logo-shopee" />
+            </button>
           </a>
         </div>
         {/* <h2 className="text-center">Offline Store</h2>

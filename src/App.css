@@ -1,12 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-
 @media only screen and (max-width: 1200px) {
   .cardui {
     padding-top: 6rem;
     width: 100vw !important;
     justify-content: center;
     display: flex;
+  }
+  .navbar-brand {
+    margin-left: 0 !important;
+  }
+  .navbar-nav {
+    margin-right: 0 !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -74,7 +77,12 @@
   background-color: #ffffe8;
   padding-bottom: 1rem;
 }
-
+.navbar-brand {
+  margin-left: 5rem;
+}
+.navbar-nav {
+  margin-right: 5rem;
+}
 /* Akhir navbar */
 /* Ucapan */
 .ucapan {
@@ -119,13 +127,15 @@
   font-family: "Josefin Sans", sans-serif;
 }
 .logo-shopee {
-  width: 40vh;
+  width: 20vh;
 }
-.maps {
-  width: 15vh;
+.tombol-shopee {
+  background-color: #fed2aa;
+  width: 30vh;
+  height: 10vh;
 }
-.alamat {
-  font-size: x-large;
+.tombol-shopee:hover {
+  background-color: #ffbf86;
 }
 /* Akhir Online Store */
 
@@ -135,11 +145,19 @@
   font-family: "Josefin Sans", sans-serif;
 }
 .whatsapp-logo {
-  width: 30vh;
+  width: 20vh;
 }
 /* Akhir Kontak */
 
 /* Layanan */
+.tombol-whatsapp {
+  background-color: #b1d7b4;
+  width: 30vh;
+  height: 10vh;
+}
+.tombol-whatsapp:hover {
+  background-color: #7fb77e;
+}
 .deskripsi {
   font-size: 25px;
   font-family: "Josefin Sans", sans-serif;
@@ -151,7 +169,7 @@
 
 /* Footer */
 .copyright {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Space Mono", monospace;
   padding-bottom: 1.2rem;
   margin: auto;
   background-color: #fffbf5;
